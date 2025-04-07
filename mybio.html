@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Моё био</title>
+  <link rel="icon" href="ico.ico" type="image/x-icon"> <!-- ← Вот это -->
+  <style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Моё био</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+    }
+
+    .container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .bio-card {
+      background-color: #fff;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      max-width: 320px;
+      position: relative;
+    }
+
+    .bio-card img {
+      width: 100px;
+      height: 100px;
+      object-fit: cover;
+      border-radius: 50%;
+      margin-bottom: 15px;
+    }
+
+    h1 {
+      margin: 10px 0;
+    }
+
+    .contact-button {
+      display: block;
+      width: 100%;
+      margin: 8px 0;
+      padding: 10px;
+      font-size: 16px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background-color 0.2s;
+      text-decoration: none;
+    }
+
+
+    .back-button {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      font-size: 24px;
+      text-decoration: none;
+      color: #333;
+      background-color: transparent;
+      border: none;
+      cursor: pointer;
+      transition: color 0.2s;
+    }
+
+    .back-button:hover {
+      color: #4caf50;
+    }
+
+    .contact-button:hover {
+      background-color: #4CAF50;
+    }
+
+    .number-text {
+      margin-top: 10px;
+      font-size: 16px;
+      color: #333;
+    }
+
+    .bio-text {
+      margin-top: 20px;
+      font-size: 16px;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="bio-card">
+      <a href="https://none11122.github.io/misite/" class="back-button" title="Назад">&#8592;</a>
+      <img src="myphoto.png" alt="Моё фото">
+      <h1>Азамат Ахматьянов</h1>
+
+      <a class="contact-button" href="mailto:azamatahmatyanov30@gmail.com?subject=Привет">Написать на Email</a>
+      <a class="contact-button" href="https://t.me/TOJ_on_I" target="_blank">Открыть Telegram</a>
+
+      <div class="number-text">Контактный номер: +7 993 135 1459</div>
+
+      <div class="bio-text">
+        Учусь я в 10-м классе<br>
+        Будет вопрос — подойди спроси!
+      </div>
+    </div>
+  </div>
+</body>
+</html>
